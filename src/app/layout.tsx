@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 import type { Metadata } from 'next'
 import { Mulish } from 'next/font/google'
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body >
       <Header/>  
       {children}
+      <Footer/>
       </body>
     </html>
   )
