@@ -3,7 +3,7 @@ import Link from 'next/link'
 import MovieCard from '@/components/MovieCard'
 const Movies = async () => {
 // const fetch = require('node-fetch');
-const url = process.env.RAPID_KEY
+const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en'
 const options = {
   method: 'GET',
   headers: {
