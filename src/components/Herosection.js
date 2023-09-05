@@ -26,10 +26,10 @@ function Herosection({title,imgUrl}) {
                                 Explore Movies
                             </button>
                         </Link>
+                        </div>
                     <div className='hero_image'>
                     <Image src={imgUrl} alt="watching netflix" width={500} height={500}/>
                     </div>
-                </div>
             </div>
       </div>
       <div className='custom-shape-divider-bottom-1681647578'>
