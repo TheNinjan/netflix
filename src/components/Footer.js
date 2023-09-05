@@ -9,13 +9,11 @@ export const metadata = {
 const Footer = () => {
     return (
         <>
-
             <footer className='footer'>
                 <div className='content'>
                     <div className='top'>
                         <div className='logo-details'>
-                            {/*<i className='fab fa-slack]></i>*/}
-                            <span className='logo_name'>Thapa Technical</span>
+                            <span className='logo_name'>Netflix</span>
                         </div>
                         <div className="media-icons">
                             <Link href="#"><i > <FaFacebookF/> </i></Link>
@@ -27,7 +25,7 @@ const Footer = () => {
                     </div>
                     <div className='link-boxes'>
                         <ul className='box'>
-                            <li className='link_name'>Company</li>
+                            <li className='link_name'>Netflix</li>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Contact us</a></li>
                             <li><a href="#">About us</a></li>
@@ -35,10 +33,10 @@ const Footer = () => {
                         </ul>
                         <ul className='box'>
                             <li className='link_name'>Services</li>
-                            <li><a href="#">App design</a></li>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Logo design</a></li>
-                            <li><a href="#">Banner design</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Series</a></li>
+                            <li><a href="#">Documentry</a></li>
+                            <li><a href="#">Music</a></li>
                         </ul>
                         <ul className='box'>
                             <li className='link_name'>Account</li>
@@ -48,11 +46,11 @@ const Footer = () => {
                             <li><a href="#">Purchase</a></li>
                         </ul>
                         <ul className='box'>
-                            <li className='link_name'>Courses</li>
-                            <li><a href="#">HTML & CSS</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
+                            <li className='link_name'>Packes</li>
+                            <li><a href="#">Free</a></li>
+                            <li><a href="#">399/Month</a></li>
+                            <li><a href="#">3000/Year</a></li>
+                            <li><a href="#"> Buy Now</a></li>
                         </ul>
                         <ul className='${box}input-box'>
                             <li className='link_name'>Subscribe</li>
@@ -64,7 +62,7 @@ const Footer = () => {
                 <div className='bottom-details'>
                     <div className='bottom_text'>
                         <span className='copyright_text'> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                            <Link href="/>"> Netflix.</Link> All rights reserved </span>
                         <span className='policy_terms'>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
